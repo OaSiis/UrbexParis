@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  'abstracts/bs-settings',
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// 3. Base stuff
+@import
+  'base/fonts',
+  'base/typography',
+  'base/animations',
+  'base/helpers',
+  'base/base';
+
+// 4. Layout-related sections
+@import
+  'layout/nav',
+  'layout/header';
+
+// 5. Components
+
+// 6. Page-specific styles
+
+// 7. Themes
+
+// 8. Media Queries
+
+
+
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}

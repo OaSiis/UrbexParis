@@ -1,0 +1,18 @@
+{
+  "name": "UrbexParis",
+  "version": "1.0.0",
+  "description": "Symfony Standard Edition ========================",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OaSiis/UrbexParis.git"
+  },
+  "author": "Maximilien Charbonnelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cartesiaeducation/www-platform/issues"
+  },
+  "homepage": "https://github.com/OaSiis/UrbexParis#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
