@@ -1,9 +1,19 @@
-.screen__header {
+.header {
+  &__arrow {
+    position: relative;
+    animation: down 1s infinite;
+    animation-timing-function: linear;
+    -webkit-animation: down 1s infinite;
+    -webkit-animation-timing-function: linear;
+  }
+
+  &__screen {
     padding-top: 80px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0.6) 100%), url(../../dev/images/urbex_cover.jpg) bottom center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.7) 100%), url(../../dev/images/urbex_cover.jpg) bottom center;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
+  }
 }
 
 .screen__section {

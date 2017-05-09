@@ -1,3 +1,8 @@
-.navbar {
-  border-bottom: 3px solid $brand-primary; 
+.navbar{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+
+  &_border {
+    border-bottom: 3px solid $brand-primary;
+  }
 }
