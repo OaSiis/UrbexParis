@@ -9,10 +9,26 @@
 
   &__screen {
     padding-top: 80px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.7) 100%), url(../../dev/images/urbex_cover.jpg) bottom center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 100%), url(../../dev/images/urbex_cover.jpg) bottom center;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
+  }
+
+  &__btn {
+    width: 200px;
+    height: 64px;
+    display: inline-block;
+
+    &_google{
+      background: url(../../dev/images/google_btn@2x-9a2286d85f3948696c133129c6bdfe27.png) no-repeat;
+      background-size: 200px 64px;
+    }
+
+    &_apple{
+      background: url(../../dev/images/appstore_btn@2x-600b21b2bf1a8178b9a5a3fdf955b8c3.png) no-repeat;
+      background-size: 200px 64px;
+    }
   }
 }
 
