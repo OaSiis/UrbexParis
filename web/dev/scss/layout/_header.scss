@@ -18,6 +18,7 @@
   &__btn {
     width: 200px;
     height: 64px;
+
     display: inline-block;
 
     &_google{
@@ -42,7 +43,6 @@
 }
 
 .screen__section_two {
-    height: 70vh;
     padding: 40px 0;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0.6) 100%), url(../../dev/images/videos.jpg) bottom center;
     background-attachment: fixed;
